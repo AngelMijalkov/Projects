@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+
+}
+.logo {
+    width: 100px;
+}
+
+body{
+background-color: #638CAA;
+}
+
+.float-right {
+    float: right;
+    }
+
+nav ul li {
+    display: inline;
+    
+}
+
+a:hover {
+color: grey;
+text-decoration: underline red;
+
+}
+
+a  {
+text-decoration: none;
+color: white;
+}
+
+nav ul li:not(:last-child) {
+    margin-right: 15px;
+
+}
+
+nav::after {
+content: "";
+clear: both;
+display: block;
+}
+
+nav {
+padding: 20px;
+}
+
+.apple-devices {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.float-left {
+    width: 25%;
+    background-color: #9AA7B8;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+
+.container{
+    width: 100%;
+}
+
+.ipad {
+    background-color: #9AA7B8;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.float-left1 {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+p, h2 {
+    text-decoration: none;
+    color: white;
+    padding-top: 0;
+    font-size: 30px;
+    }
+
+.div-1{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    background-color: #B7CED6;
+    height: 400px;
+}
+
+.ipad-div, .iphone-div, .macbookair {
+    width: 50%;
+    float:right;
+    text-align: center;
+    height: 400px;  
+    background-color: #BCB9AA;
+    }
+
+.color-Macbook{
+    background-color: #DBDBDB;
+    text-align: center;
+   
+}
+
+.color-iPad{
+    background-color: #BCB9AA;
+    text-align: center;
+    
+}
+.color-iphone{
+    background-color: #9CE0D1;
+    text-align: center;
+  }
+
+.color-about{
+    background-color: #9AA7B8;
+    text-align: center;
+}
+
+.ipad-image {
+    width: 350px;
+    margin-top: 30px;  
+}
+
+.inline-images{
+    display: inline-block;
+}
+
+.black{
+    color:black;
+    padding-top: 10px;
+}
+
+.c-ipad, .c-iphone .macbook {
+    padding-top: 30px;
+    width: 90%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.float-left{
+float:left;
+}
+
+.iphone-image{
+    display: inline-block;
+    width: 350px;
+    margin-top: 25px;
+    }
+
+.macbook-image{
+    display: inline-block;
+    width: 350px;
+    margin-top: 25px;
+}
+
+.red{
+    background-color: #F09E84;
+    border-bottom: 20px solid #638CAA;
+
+}
+
+.width-33{
+    width: 33.333%;
+    display: inline-block;
+    float: left;
+    text-align:center;
+}
+
+.font-18{
+    font-size: 18px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.icon-size {
+    font-size: 50px;
+    text-align: center;
+    margin-left: auto;  
+    margin-right: auto;
+    display: inline-block;  
+    width: 100%; 
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    width: 100%;      
+}
+
+.purple {
+    background-color: #514354;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-color {
+    backdrop-filter: #9AA7B8;
+}
+
+.apple-white {
+    color: white;
+}
+
+a {
+    display: inline-block;
+}
+
+.fa-brands:not(.fa-facebook-f) {
+margin-left: 120px;
+}
+
+.class-90 {
+ width: 90%;    
+ text-align: justify;
+ text-indent: 15px;
+ margin-left: auto;
+ margin-right: auto;
+ padding-top: 30px;
+
+}
+
+h2 {
+    padding-top: 15px;
+    font-style: bold;
+    
+}
+
+.color-salary{
+    background-color: #BCB9AA;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.color-team {
+    background-color: #9AA7B8;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.color-earnings{
+    background-color: #9CE0D1;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.h2-bold{
+    color: black;
+}
